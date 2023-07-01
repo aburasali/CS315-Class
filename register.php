@@ -33,9 +33,7 @@ The name file is expressive
             ?>
             <input type="text" name="usrnm" placeholder="username"><br>
             <?php
-            if (isset($err_usrnm)) {
-                echo $err_usrnm;
-            }
+
             ?>
             <input type="number" name="phn" placeholder="phone"><br>
             <?php
